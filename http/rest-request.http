@@ -1,0 +1,11 @@
+#Get Access Token
+@accessToken = ...
+
+
+# REST-Service
+GET https://api.stage.example.com/resource
+Authorization: Bearer {{accessToken}}
+Content-Type: application/json
+
+
+
