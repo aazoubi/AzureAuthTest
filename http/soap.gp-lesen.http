@@ -1,0 +1,17 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:bas="http://baseone.nordlbit.de">
+    <soapenv:Header>
+        <bas:NlbInstitutsnummer>909</bas:NlbInstitutsnummer>
+        <bas:ClientId>Postman</bas:ClientId>
+    </soapenv:Header>
+    <soapenv:Body>
+        <bas:GPLesenEingabePO>
+            <bas:GpNr>4</bas:GpNr>
+            <bas:LeseAdressen>true</bas:LeseAdressen>
+            <bas:LeseKube>true</bas:LeseKube>
+            <bas:LeseLegitimationen>true</bas:LeseLegitimationen>
+            <bas:LeseVerbuende>true</bas:LeseVerbuende>
+            <bas:LeseVerstorbenKz>true</bas:LeseVerstorbenKz>
+            <bas:LeseMifidKlassifikation>true</bas:LeseMifidKlassifikation>
+        </bas:GPLesenEingabePO>
+    </soapenv:Body>
+</soapenv:Envelope>
