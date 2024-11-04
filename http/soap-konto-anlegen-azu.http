@@ -1,0 +1,18 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:bas="http://baseone.nordlbit.de">
+    <soapenv:Header>
+        <bas:NlbInstitutsnummer>909</bas:NlbInstitutsnummer>
+        <bas:ClientId>Postman</bas:ClientId>
+    </soapenv:Header>
+    <soapenv:Body>
+        <bas:KontoAnlegenEingabePO>
+            <bas:Blz>00700100</bas:Blz>
+            <bas:GeschaeftsArtTechn>100</bas:GeschaeftsArtTechn>
+            <bas:GpNr>1042465020</bas:GpNr>
+            <bas:GeschaeftsproduktVariante>FW-KREDIT</bas:GeschaeftsproduktVariante>
+            <bas:IsoCodeWaehrung>EUR</bas:IsoCodeWaehrung>
+            <bas:KontoNr>201610216</bas:KontoNr>
+            <bas:LaufzeitEnde>2020-09-01T00:00:00Z</bas:LaufzeitEnde>
+            <bas:Vermoegenskennzeichen>3</bas:Vermoegenskennzeichen>
+        </bas:KontoAnlegenEingabePO>
+    </soapenv:Body>
+</soapenv:Envelope>
